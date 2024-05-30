@@ -19,9 +19,9 @@ sudo python setup.py install
 ```
 To allow ds4drv access to uinput run:
 ```bash
-nudevadm control --reload-rules
-rmmod uinput
-modprobe uinput
+sudo nudevadm control --reload-rules
+sudo rmmod uinput
+sudo modprobe uinput
 ```
 ## Usage
 
