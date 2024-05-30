@@ -14,7 +14,7 @@ _Those packages will be installed by setup.py_
 Then run the installer:
 ```bash
 git clone https://github.com/gothboiprncss/ds4drv-fixed.git
-cd ds4drv
+cd ds4drv-fixed
 sudo python setup.py install
 ```
 
