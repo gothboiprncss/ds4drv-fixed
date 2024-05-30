@@ -17,7 +17,12 @@ git clone https://github.com/gothboiprncss/ds4drv-fixed.git
 cd ds4drv-fixed
 sudo python setup.py install
 ```
-
+To allow ds4drv access to uinput run:
+```bash
+nudevadm control --reload-rules
+rmmod uinput
+modprobe uinput
+```
 ## Usage
 
 ```bash
